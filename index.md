@@ -5,7 +5,7 @@ time can drastically reduce the number of vehicle accidents every year.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Mark L | Stratford Preparatory | Mechanical/Aerospace Engineering | 7th Grade
+| Mark L | Stratford Preparatory | Mechanical/Aerospace Engineering | Incoming 7th Grader
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
