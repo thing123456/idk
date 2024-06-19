@@ -31,21 +31,21 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LvG_XtgDk1o?si=GcD0zFd1mAOB8xgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+From the first milestone, not much has changed on the physical side, but in terms of software, I've added a preprogrammed loop that makes 
+the motors run and thus the car move. I think the most fun part about the project is designing custom parts like an external switch 
+connected to the battery, which involves soldering which is one of the things that I have not done a lot. I thought that connecting the 
+L298N module to the board was impossible and extremely time intensive, involving drilling holes. However, I realized that I can just attach 
+the wires and 3d design a custom adapter for the module to fit on the pre drilled holes of my board. I need to finish coding the obstacle 
+avoidance features in order for my project to be officially considered a self driving car.
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KbAKzpfG8K0?si=2EWMpHW01JAYsbqv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+The microcontroller is the head of the car: it sends commands to the rest of the components, in addition to supplying power. The general 
+concept is that the ultrasonic and infrared sensors sent signals to the microcontroller which then send signals to the motor driver and 
+then the motors. I have finished building the car and wiring everything together. The L928N module requires an adapter, and I'm still 
+working on printing it. Now it's just about coding the self driving features and implementing a remote control switch system to manually control the car.
 
 <!---
 
