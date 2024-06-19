@@ -12,6 +12,7 @@ time can drastically reduce the number of vehicle accidents every year.
 ![Headstone Image](logo.svg)
 
 <!---
+
 # Final Milestone
 
 **This video is not mine, just a placeholder for until i film mine**
@@ -70,6 +71,7 @@ void loop() {
 }
 ```
 -->
+
 # Bill of Materials
 
 | **Part** | **Description** | **Price** | **Link** |
@@ -80,7 +82,9 @@ void loop() {
 | HC-SR04 Module | Ultrasonic Sensor | 6.99 | <a href="https://www.amazon.com/WWZMDiB-HC-SR04-Ultrasonic-Distance-Measuring/dp/B0B1MJJLJP/ref=sr_1_3?crid=RRD1BCLW5MA2&dib=eyJ2IjoiMSJ9.e5Yfpkja9gNArv99GdcfIbPkHEwnA5_v-S2dX3lHPU1h-CE0FMngmPIN-RWz6_85D7uy5lUjfES3fg8KH2LiWyd5kh_eYecUzivuSBQgQ-7V5q75bfTPT1c-Dw9xsK92pB3EvvorlFjzTcLxt8t1LBe64BRysrk8liNih8EQ-6P1PoQiFy3AevOLQyCa-a_bTAyFF3-a0RvuelPeJLR0WkLGTGlJXGuw4VWhcJvB1eVelgDc1Xq--b0qQDFmUbUmmA2B4V3DlQ8IWgl-SM02pAbIlgLx1abBgCv4Nho5a1c.BtzBEEH9LEJkV-BPYB2_uFIboXIgEIp9MKHCdeLmm8E&dib_tag=se&keywords=hc%2Bsr04%2Bultrasonic%2Bsensor&qid=1718743144&s=electronics&sprefix=hc%2Bsr04%2Celectronics%2C131&sr=1-3&th=1"> Amazon </a> |
 | FC-51 Module | Infrared Sensor | 8.99 | <a href="https://www.amazon.com/ALMOCN-Infrared-Obstacle-Avoidance-Raspberry/dp/B08ZMJGKQP/ref=sr_1_15?crid=19UUMAOAS76Q9&dib=eyJ2IjoiMSJ9.2SYg7ZngTzI3kV3jYMQbeoQveQACXH5_b3CRBBWVW1x_kNlywPaRAJ_PTJ6oPY2q-DUClHKUjYl6ZpcNQLPXEKu867TGuBM0wNwJ3hiQMBa25ESKUnvE2mN77JhgGFXtJJzab5h8_Uu2Ly5v73qwNxMMvYpWrswW5SB9RQ5yVeXsrLhkWGZQ2UqwlkJsArE-9SnV1ssFYPy6ANCptEGdsdfURJar9Cv2Q2vEM5dMz4mGQ8BW1VuPVhlDeWv0S6Qh4zUST9i3erZpyejEIokC-3zITgLdMf9rlqtnrsB03kM.UxvVeUpxsl3QbaVVhUdt1KDcI2JOQuOjC_FE0qOPK2g&dib_tag=se&keywords=obstacle+avoidance+module&qid=1718743405&s=electronics&sprefix=obstacle+avoidance+moudle%2Celectronics%2C122&sr=1-15"> Amazon </a> |
 | Tiny Premium Breadboard | Solderless Circuitboard | 3.95 | <a href="https://www.adafruit.com/product/65"> Adafruit </a> |
+
 <!---
+
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
