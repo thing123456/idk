@@ -97,5 +97,3 @@ One of the best parts about Github is that you can view how other people set up 
 This is my starter project. I practiced soldering by putting together a cool color mixing experiment/lab with RGB. The kit came with 5
 pieces: a 4-pin RGB LED, a mini white PCB with pre-cut holes, and three linear potentiometers. Soldering was difficult at first, but with
 practice I started to get the hang of it. I believe that learning to solder will greatly benefit me in making my final project.
-
-# 
