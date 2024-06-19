@@ -1,7 +1,8 @@
 # Self Driving Robotic Car
 In the United States, over six and a half million car accidents happen every year. Over 90% of those accidents are caused by human pilot
 error, according to the U.S. General Services Administration. A car that operates on artificial intelligence and is attentive 100% of the
-time can drastically reduce the number of vehicle accidents every year.
+time can drastically reduce the number of vehicle accidents every year. This is one of the reasons of why I want to build the self driving 
+car. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
