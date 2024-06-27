@@ -8,9 +8,7 @@ car.
 |:--:|:--:|:--:|:--:|
 | Mark L | Stratford Preparatory | Mechanical/Aerospace Engineering | Incoming 7th Grader
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](Mark_L.JPG)
 
 <!---
 
@@ -51,22 +49,80 @@ working on printing it. Now it's just about coding the self driving features and
 <!---
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+const int in1 = 5;
+const int in2 = 6;
+const int in3 = 9;
+const int in4 = 10;
+
+const int rightIR = 7;
+const int leftIR = 8;
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+
+  //motor
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+
+  //IR obstacle
+  pinMode(leftIR, INPUT);
+  pinMode(rightIR, INPUT);
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
+  int left = digitalRead(leftIR);  // 0: Obstructed   1: Empty
+  int right = digitalRead(rightIR);
+  int speed = 150;
+
+  if (!left && right) {
+    backLeft(speed);
+  } else if (left && !right) {
+    backRight(speed);
+  } else if (!left && !right) {
+    moveBackward(speed);
+  } else {
+    moveForward(speed);
+  }
 }
+
+void moveForward(int speed) {
+  analogWrite(in1, 0);
+  analogWrite(in2, speed);
+  analogWrite(in3, speed);
+  analogWrite(in4, 0);
+}
+
+void moveBackward(int speed) {
+  analogWrite(in1, speed);
+  analogWrite(in2, 0);
+  analogWrite(in3, 0);
+  analogWrite(in4, speed);
+}
+
+void backLeft(int speed) {
+  analogWrite(in1, speed);
+  analogWrite(in2, 0);
+  analogWrite(in3, 0);
+  analogWrite(in4, 0);
+}
+
+void backRight(int speed) {
+  analogWrite(in1, 0);
+  analogWrite(in2, 0);
+  analogWrite(in3, 0);
+  analogWrite(in4, speed);
+}
+
 ```
 -->
 
